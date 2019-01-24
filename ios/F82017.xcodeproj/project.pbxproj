@@ -35,10 +35,6 @@
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		2DCD954D1E0B4F2C00145EB5 /* F82017Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* F82017Tests.m */; };
-		3009A9271DF88122006B5D62 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9231DF88122006B5D62 /* Bolts.framework */; };
-		3009A9281DF88122006B5D62 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */; };
-		3009A9291DF88122006B5D62 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */; };
-		3009A92A1DF88122006B5D62 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */; };
 		3035251A1E4BFD4E0003A60D /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525171E4BFD4E0003A60D /* launchscreen.png */; };
 		3035251B1E4BFD4E0003A60D /* launchscreen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525181E4BFD4E0003A60D /* launchscreen@2x.png */; };
 		3035251C1E4BFD4E0003A60D /* launchscreen@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 303525191E4BFD4E0003A60D /* launchscreen@3x.png */; };
@@ -49,6 +45,22 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		B2C3247ED20945EDAAD12F70 /* libRCTFBSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E12A673783B9486B87E8AE7B /* libRCTFBSDK.a */; };
+		C214F2E621F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2C421F65B0500BF8B1B /* FBSDKCoreKit.framework */; };
+		C214F2E721F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2C421F65B0500BF8B1B /* FBSDKCoreKit.framework */; };
+		C214F2E821F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2C421F65B0500BF8B1B /* FBSDKCoreKit.framework */; };
+		C214F2E921F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2C421F65B0500BF8B1B /* FBSDKCoreKit.framework */; };
+		C214F2EB21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EA21F65B0E00BF8B1B /* FBSDKLoginKit.framework */; };
+		C214F2EC21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EA21F65B0E00BF8B1B /* FBSDKLoginKit.framework */; };
+		C214F2ED21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EA21F65B0E00BF8B1B /* FBSDKLoginKit.framework */; };
+		C214F2EE21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EA21F65B0E00BF8B1B /* FBSDKLoginKit.framework */; };
+		C214F2F021F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EF21F65B1700BF8B1B /* FBSDKShareKit.framework */; };
+		C214F2F121F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EF21F65B1700BF8B1B /* FBSDKShareKit.framework */; };
+		C214F2F221F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EF21F65B1700BF8B1B /* FBSDKShareKit.framework */; };
+		C214F2F321F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2EF21F65B1700BF8B1B /* FBSDKShareKit.framework */; };
+		C214F2F521F65B2A00BF8B1B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2F421F65B2A00BF8B1B /* Bolts.framework */; };
+		C214F2F621F65B2A00BF8B1B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2F421F65B2A00BF8B1B /* Bolts.framework */; };
+		C214F2F721F65B2A00BF8B1B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2F421F65B2A00BF8B1B /* Bolts.framework */; };
+		C214F2F821F65B2A00BF8B1B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C214F2F421F65B2A00BF8B1B /* Bolts.framework */; };
 		FC554BF677604211A694CB54 /* libBVLinearGradient.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8428BBB5DFD14C4AA4194341 /* libBVLinearGradient.a */; };
 /* End PBXBuildFile section */
 
@@ -277,6 +289,13 @@
 			remoteGlobalIDString = 58B5119B1A9E6C1200147676;
 			remoteInfo = RCTText;
 		};
+		C214F2C721F65B0500BF8B1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75B177E8AB114A5C9AE0BF0C /* BVLinearGradient.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 64AA15081EF7F30100718508;
+			remoteInfo = "BVLinearGradient-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -302,10 +321,6 @@
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* F82017-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "F82017-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* F82017-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "F82017-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3009A9231DF88122006B5D62 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
-		3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../../../../../../Documents/FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
-		3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../../../../../../Documents/FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
-		3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../../../../../../Documents/FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
 		303525171E4BFD4E0003A60D /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
 		303525181E4BFD4E0003A60D /* launchscreen@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchscreen@2x.png"; sourceTree = "<group>"; };
 		303525191E4BFD4E0003A60D /* launchscreen@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "launchscreen@3x.png"; sourceTree = "<group>"; };
@@ -323,6 +338,10 @@
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		8428BBB5DFD14C4AA4194341 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = "<group>"; };
 		AC84A694044143A5965F8E75 /* RCTFBSDK.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTFBSDK.xcodeproj; path = "../node_modules/react-native-fbsdk/ios/RCTFBSDK.xcodeproj"; sourceTree = "<group>"; };
+		C214F2C421F65B0500BF8B1B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		C214F2EA21F65B0E00BF8B1B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		C214F2EF21F65B1700BF8B1B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		C214F2F421F65B2A00BF8B1B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		D88E526290554232ABA3F7BC /* RNVideoPlayer.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVideoPlayer.xcodeproj; path = "../node_modules/react-native-native-video-player/ios/RNVideoPlayer.xcodeproj"; sourceTree = "<group>"; };
 		E12A673783B9486B87E8AE7B /* libRCTFBSDK.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRCTFBSDK.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -332,7 +351,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C214F2F621F65B2A00BF8B1B /* Bolts.framework in Frameworks */,
+				C214F2F121F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */,
 				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
+				C214F2E721F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */,
+				C214F2EC21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,12 +363,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C214F2F521F65B2A00BF8B1B /* Bolts.framework in Frameworks */,
 				308E35A01E8C2A5E00CAC09E /* libRCTPushNotification.a in Frameworks */,
-				3009A9291DF88122006B5D62 /* FBSDKLoginKit.framework in Frameworks */,
-				3009A9271DF88122006B5D62 /* Bolts.framework in Frameworks */,
+				C214F2E621F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				C214F2EB21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
 				5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */,
+				C214F2F021F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */,
 				00C302E51ABCBA2D00DB3ED1 /* libRCTActionSheet.a in Frameworks */,
 				00C302E71ABCBA2D00DB3ED1 /* libRCTGeolocation.a in Frameworks */,
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
@@ -355,8 +380,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				3009A92A1DF88122006B5D62 /* FBSDKShareKit.framework in Frameworks */,
-				3009A9281DF88122006B5D62 /* FBSDKCoreKit.framework in Frameworks */,
 				B2C3247ED20945EDAAD12F70 /* libRCTFBSDK.a in Frameworks */,
 				FC554BF677604211A694CB54 /* libBVLinearGradient.a in Frameworks */,
 				0186555E1614488AAE4A6B43 /* libRNVideoPlayer.a in Frameworks */,
@@ -370,11 +393,15 @@
 			files = (
 				2D02E4C91E0B4AEC006451C7 /* libReact.a in Frameworks */,
 				2D02E4C21E0B4AEC006451C7 /* libRCTAnimation.a in Frameworks */,
+				C214F2ED21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */,
+				C214F2F721F65B2A00BF8B1B /* Bolts.framework in Frameworks */,
 				2D02E4C31E0B4AEC006451C7 /* libRCTImage-tvOS.a in Frameworks */,
 				2D02E4C41E0B4AEC006451C7 /* libRCTLinking-tvOS.a in Frameworks */,
 				2D02E4C51E0B4AEC006451C7 /* libRCTNetwork-tvOS.a in Frameworks */,
+				C214F2F221F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */,
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
+				C214F2E821F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -383,6 +410,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C214F2EE21F65B0F00BF8B1B /* FBSDKLoginKit.framework in Frameworks */,
+				C214F2E921F65B0500BF8B1B /* FBSDKCoreKit.framework in Frameworks */,
+				C214F2F321F65B1700BF8B1B /* FBSDKShareKit.framework in Frameworks */,
+				C214F2F821F65B2A00BF8B1B /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +571,7 @@
 			isa = PBXGroup;
 			children = (
 				308E376F1E8D63B000CAC09E /* libBVLinearGradient.a */,
+				C214F2C821F65B0500BF8B1B /* libBVLinearGradient.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -565,14 +597,14 @@
 		7A3404E71E26487D967C39EB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C214F2F421F65B2A00BF8B1B /* Bolts.framework */,
+				C214F2EF21F65B1700BF8B1B /* FBSDKShareKit.framework */,
+				C214F2EA21F65B0E00BF8B1B /* FBSDKLoginKit.framework */,
+				C214F2C421F65B0500BF8B1B /* FBSDKCoreKit.framework */,
 				3098A8FE1E7C64CD0003742F /* libz.tbd */,
 				30391C671E48DF4D005B8B86 /* libsqlite3.0.tbd */,
 				30391C651E48DF3F005B8B86 /* SystemConfiguration.framework */,
 				30391C631E48DF35005B8B86 /* CoreData.framework */,
-				3009A9231DF88122006B5D62 /* Bolts.framework */,
-				3009A9241DF88122006B5D62 /* FBSDKCoreKit.framework */,
-				3009A9251DF88122006B5D62 /* FBSDKLoginKit.framework */,
-				3009A9261DF88122006B5D62 /* FBSDKShareKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1042,6 +1074,13 @@
 			remoteRef = 832341B41AAA6A8300B99B32 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		C214F2C821F65B0500BF8B1B /* libBVLinearGradient.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libBVLinearGradient.a;
+			remoteRef = C214F2C721F65B0500BF8B1B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1181,6 +1220,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1207,6 +1250,10 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1233,6 +1280,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_TEAM = 9B8M3M76P9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1259,6 +1310,10 @@
 				CODE_SIGN_ENTITLEMENTS = F82017/F82017.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9B8M3M76P9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(SRCROOT)/../node_modules/react-native-linear-gradient/BVLinearGradient",
@@ -1288,6 +1343,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1318,6 +1377,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1347,6 +1410,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "F82017-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -1368,6 +1435,10 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "F82017-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
